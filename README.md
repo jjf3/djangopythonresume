@@ -41,13 +41,14 @@ class Resume(models.Model):
     skills = models.TextField()
 ```
 # views.py
+```python
 from django.shortcuts import render
 from .models import Resume
 
 def resume(request):
     resume = Resume.objects.first()  # Assuming you have only one resume instance
     return render(request, 'resume.html', {'resume': resume})
-
+```
 # urls.py
 from django.contrib import admin
 from django.urls import path
