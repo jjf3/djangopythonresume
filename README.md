@@ -5,27 +5,27 @@ My resume created using python and django
 3. python manage.py startapp resumeapp
 Replace the settings.py, models.py, views.py, and urls.py files in the myresume directory with the code provided below:
 # settings.py
->...```
+```python
+# ... 
 INSTALLED_APPS = [
-...
+ # ...
  'resumeapp',
 ]
-...
+# ...
 TEMPLATES = [
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'APP_DIRS': True,
-        'OPTIONS': {
-            'context_processors': [
-                ...
-                'django.template.context_processors.request',
-            ],
-        },
-    },
+ {
+     'BACKEND': 'django.template.backends.django.DjangoTemplates',
+     'DIRS': [],
+     'APP_DIRS': True,
+     'OPTIONS': {
+         'context_processors': [
+             # ...
+             'django.template.context_processors.request',
+         ],
+     },
+ },
 ]
-...```
->
+# ...
 
 # models.py
 from django.db import models
