@@ -1,6 +1,6 @@
 # djangopythonresume
 My resume created using python and django
-1. I already had python and django installed so first step would be django-admin startproject myresume
+1. I already had python and django installed so first step would be django-admin startproject myresume 
 2. cd myresume
 3. python manage.py startapp resumeapp
 Replace the settings.py, models.py, views.py, and urls.py files in the myresume directory with the code provided below:
