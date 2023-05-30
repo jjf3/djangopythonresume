@@ -63,6 +63,8 @@ urlpatterns = [
 
 4. Create a new directory called templates inside the resumeapp directory.
 5. Inside the templates directory, create a new HTML file named resume.html with the following code:
+
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -86,6 +88,7 @@ urlpatterns = [
     <p>{{ resume.skills }}</p>
 </body>
 </html>
+```
 6. Apply Database Migrations: python manage.py migrate
 7. Create a superuser to access the Django admin: python manage.py createsuperuser
 8. launch server python manage.py runserver
