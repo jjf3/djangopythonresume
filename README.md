@@ -7,8 +7,8 @@ Replace the settings.py, models.py, views.py, and urls.py files in the myresume 
 # settings.py
 >...```
 INSTALLED_APPS = [
->   ...
->        'resumeapp',
+...
+ 'resumeapp',
 ]
 ...
 TEMPLATES = [
