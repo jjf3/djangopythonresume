@@ -95,7 +95,7 @@ urlpatterns = [
 9. use localhost:8000/MyResume to access resume and /admin to login to django admin center. 
 10. If error in admin center please add the following code to admin.py: 
 
-```
+```python
 from .models import Resume 
    admin.site.register(Resume)
    ```
