@@ -39,7 +39,7 @@ class Resume(models.Model):
     education = models.TextField()
     experience = models.TextField()
     skills = models.TextField()
-
+```
 # views.py
 from django.shortcuts import render
 from .models import Resume
