@@ -24,7 +24,7 @@ TEMPLATES = [
          ],
      },
  },
-] #...
+] 
 
 # models.py
 ```python
