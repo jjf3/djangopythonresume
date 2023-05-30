@@ -50,6 +50,7 @@ def resume(request):
     return render(request, 'resume.html', {'resume': resume})
 ```
 # urls.py
+```python
 from django.contrib import admin
 from django.urls import path
 from resumeapp.views import resume
@@ -58,6 +59,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('resume/', resume, name='resume'),
 ]
+```
 
 4. Create a new directory called templates inside the resumeapp directory.
 5. Inside the templates directory, create a new HTML file named resume.html with the following code:
