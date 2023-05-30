@@ -89,6 +89,7 @@ urlpatterns = [
 from .models import Resume
 
 admin.site.register(Resume)
-
+11.  You must set settings.ALLOWED_HOSTS if DEBUG is False.
+12.  Then you can see your resume at localhost:8000/resume/
 
 
