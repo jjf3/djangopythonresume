@@ -27,6 +27,8 @@ TEMPLATES = [
 ] #...
 
 # models.py
+```python
+# models.py
 from django.db import models
 
 class Resume(models.Model):
