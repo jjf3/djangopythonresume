@@ -6,7 +6,7 @@ My resume created using python and django
 Replace the settings.py, models.py, views.py, and urls.py files in the myresume directory with the code provided below:
 # settings.py
 ...
-INSTALLED_APPS = [
+<INSTALLED_APPS = [
     ...
     'resumeapp',
 ]
@@ -24,7 +24,7 @@ TEMPLATES = [
         },
     },
 ]
-...
+...>
 
 # models.py
 from django.db import models
